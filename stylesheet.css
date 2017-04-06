@@ -23,7 +23,7 @@ color: white;
 text-shadow: 5px 5px 5px rgba(0,0,0,0.2)
 }
 .b *{
-margin: -10px;
+margin-top: -10px;
 background:#aaaaaa;
 color: black;
 padding: 20px;

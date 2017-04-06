@@ -5,6 +5,13 @@ color: white;
 font-family: Helvetica, sans-serif;
 }
 
+a{
+text-decoration: none;
+}
+li a:hover{
+color:#444444;
+font-weight: bold;
+}
 h1 {
 background: transparent;
 margin-top:30px;
@@ -35,7 +42,7 @@ cursor: default;
 width: 50px;
 }
 
-.b li:hover{
+.b li .NC:hover{
 color:#444444;
 font-weight: bold;
 }
@@ -50,11 +57,15 @@ margin-right:2px;
 width: 85px;
 background: #ffffff;
 cursor:default;
+box-shadow: 2px 2px 1px rgba(0,0,0,0.2)
 }
+
+
 ul #contact:active{
-background:#aaaaaa;
+background:#bbbbbb;
 margin-top:2px;
 margin-left:1px;
+box-shadow: none;
 }
 
 .article{
